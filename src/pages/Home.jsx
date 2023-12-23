@@ -105,7 +105,11 @@ const Home = ({ darkmode }) => {
         >
           {newData.map((data, index) => {
             return (
-              <Link to="details" state={{ myObj: data }} key={index}>
+              <Link
+                to="/Countries-Api/home"
+                state={{ myObj: data }}
+                key={index}
+              >
                 <div
                   className={`h-[310px] w-[300px] flex flex-col rounded-md shadow-lg ${
                     darkmode ? "bg-gray-700" : "bg-white"

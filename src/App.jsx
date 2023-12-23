@@ -30,7 +30,7 @@ function App() {
             darkMode ? "bg-gray-800 text-white" : "bg-gray-200 text-gray-800"
           } shadow-lg`}
         >
-          <Link to="/home">
+          <Link to="/Countries-Api//home">
             <h1 className=" text-xl sm:text-2xl">Where in the world ?</h1>
           </Link>
 
@@ -44,8 +44,14 @@ function App() {
         </header>
       </>
       <Routes>
-        <Route path="/home" element={<Home darkmode={darkMode} />} />
-        <Route path="/home/details" element={<Details darkmode={darkMode} />} />
+        <Route
+          path="/Countries-Api/home"
+          element={<Home darkmode={darkMode} />}
+        />
+        <Route
+          path="/Countries-Api/home/details"
+          element={<Details darkmode={darkMode} />}
+        />
       </Routes>
     </BrowserRouter>
   );
