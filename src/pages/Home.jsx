@@ -106,7 +106,7 @@ const Home = ({ darkmode }) => {
           {newData.map((data, index) => {
             return (
               <Link
-                to="/Countries-Api/details"
+                to="/Countries-Api/home/details"
                 state={{ myObj: data }}
                 key={index}
               >
