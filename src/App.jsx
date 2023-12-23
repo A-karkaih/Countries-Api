@@ -30,7 +30,7 @@ function App() {
             darkMode ? "bg-gray-800 text-white" : "bg-gray-200 text-gray-800"
           } shadow-lg`}
         >
-          <Link to="/Countries-Api//home">
+          <Link to="/Countries-Api/home">
             <h1 className=" text-xl sm:text-2xl">Where in the world ?</h1>
           </Link>
 
