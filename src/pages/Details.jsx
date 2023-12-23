@@ -8,7 +8,7 @@ const Details = ({ darkmode }) => {
   const data = state?.myObj;
   console.log("this is data sent ", data);
   const handleNavigate = () => {
-    navigate("/Countries-Api/home");
+    navigate("/Countries-Api/");
   }
   if (!data) {
     return (
